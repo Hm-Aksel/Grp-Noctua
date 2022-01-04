@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  --noctua-color :#7f18c4b6;
+  --noctua-background: #e6ecf0;
+  --noctua-background-2: #f5f8fa;
+  --noctua-light: rgb(101, 119,134);
+  --noctua-red: rgb(224, 36, 94); 
+  --noctua-hover: #e8f5fe;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html{
+  font-size: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App{
+  display:flex;
+  height: auto;
+  max-width: 1300px;
+  margin-left:auto ;
+  margin-right:auto;
+  height: 100vh;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.app__mainContent{
+  display:flex;
+  flex:1;
+  flex-direction:row;
+  height:100vh
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.app__main{
+  flex:1;
+  display:flex;
+  flex-direction:row;
+}
+
+
+
+.react-responsive-modal-modal{
+  top: 4.5vh;
+  width: 85vh;
+  height: fit-content;
+  min-height: 85vh;
+  border-radius: 2rem;
+  padding: 0;
+}
+
+.react-responsive-modal-closeButton{
+  display: none;
+}
+
+.MuiCircularProgress-colorPrimary{
+  color: var(--noctua-color) !important;
 }
