@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import BarLeft from "./components/BarLeft/BarLeft";
 import BarMiddle from "./components/BarMiddle/BarMiddle";
 import BarRight from "./components/BarRight/BarRight";
-
+import BottomNav from "./components/BottomNav/BottomNav"
 function App() {
   
   return (
@@ -28,6 +28,7 @@ function App() {
          
          </Switch>
         </div>
+        <BottomNav/>
        </Router>
     </div>
   );

@@ -7,8 +7,8 @@ body{
   --noctua-background: #e6ecf0;
   --noctua-background-2: #f5f8fa;
   --noctua-light: rgb(101, 119,134);
-  --noctua-red: rgb(224, 36, 94); 
   --noctua-hover: #e8f5fe;
+  --noctua-darker-color: #1da1f2;
 }
 
 html{
