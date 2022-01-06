@@ -83,3 +83,47 @@
     padding: 1rem;
     color: var(--noctua-color);
 }
+
+
+//post expandListe
+.post__expandList{
+    list-style: none;
+    padding: 0 0 0 0;
+    border-radius: 2rem;
+}
+
+.post__expandList li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.3rem;   
+    padding: 1.2rem; 
+    background: white;
+    cursor: pointer;
+    min-width: 20rem;
+}
+
+.post__expandList li:first-child{
+    border-radius: 1rem 1rem 0 0 !important;
+}
+
+.post__expandList li:last-child{
+    border-radius: 0rem 0rem 1rem 1rem !important;
+}
+
+.post__expandList li:hover{
+    background: var(--noctua-background-2) !important;
+}
+
+.post__expandList li>h3{
+    font-weight: 400 !important;
+}
+
+.post__expandList>li>div{
+    margin-right: 1rem;
+}
+
+.post__expandList>li>div .MuiSvgIcon-root{
+    font-size: 1.8rem;
+    padding: .5rem 0rem 0rem 0rem;
+}
