@@ -16,7 +16,7 @@ function App() {
        <div className="app__mainContent">
         
          <BarLeft/>
-         <Switch>
+           <Switch>
 
            <Route  excat path='/'>
            <div className="app__main">

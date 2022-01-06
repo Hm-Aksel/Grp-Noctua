@@ -41,7 +41,10 @@ html{
   flex-direction:row;
 }
 
-
+ul{
+  list-style: none;
+  padding: 0;
+}
 
 .react-responsive-modal-modal{
   top: 4.5vh;

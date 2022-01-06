@@ -1,0 +1,85 @@
+.barAccount__wrapper{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3rem;
+    align-items: center;
+    margin-top: 20%;
+
+}
+
+.barAccount__ava{
+    border-radius: 50%;
+    padding: 1rem;
+   
+}
+
+.barAccount__wrapper:hover{
+    background-color: #e8f5fe;
+}
+
+.barAccount__userData{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.barAccount__userData h2:nth-child(2){
+    color: var(--noctua-light);
+    font-weight: 450;
+}
+
+.barAccount__expandIcon{
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+.MuiPopover-paper  {
+    border-radius: 2rem !important;
+}
+.logoutBtn{
+    cursor: pointer;
+}
+@media screen and (max-width: 1282px){
+    .sidebarAccount__userData, .sidebarAccount__expandIcon {
+        display: none;
+    } 
+}
+
+
+
+
+.user__item{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.nocursor{
+    cursor: unset !important;
+}
+
+
+.logoutBtn h3{
+    margin-left: 2rem; 
+}
+.logoutBtn h3:hover{
+ color: var(--noctua-color);
+}
+.user__details{
+    margin-left: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+.user__details>span{
+    font-size: 1.1rem;
+    color: var(--noctua-light);
+}
+
+.user__item .MuiSvgIcon-root{
+    padding: 1rem;
+    color: var(--noctua-color);
+}
