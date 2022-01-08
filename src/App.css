@@ -1,0 +1,61 @@
+*{
+  margin:0;
+}
+
+body{
+  --noctua-color :#7f18c4b6;
+  --noctua-background: #e6ecf0;
+  --noctua-background-2: #f5f8fa;
+  --noctua-light: rgb(101, 119,134);
+  --noctua-red: rgb(224, 36, 94); 
+  --noctua-hover: #e8f5fe;
+}
+
+html{
+  font-size: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.App{
+  display:flex;
+  height: auto;
+  max-width: 1300px;
+  margin-left:auto ;
+  margin-right:auto;
+  height: 100vh;
+
+
+}
+
+.app__mainContent{
+  display:flex;
+  flex:1;
+  flex-direction:row;
+  height:100vh
+}
+
+
+.app__main{
+  flex:1;
+  display:flex;
+  flex-direction:row;
+}
+
+
+
+.react-responsive-modal-modal{
+  top: 4.5vh;
+  width: 85vh;
+  height: fit-content;
+  min-height: 85vh;
+  border-radius: 2rem;
+  padding: 0;
+}
+
+.react-responsive-modal-closeButton{
+  display: none;
+}
+
+.MuiCircularProgress-colorPrimary{
+  color: var(--noctua-color) !important;
+}

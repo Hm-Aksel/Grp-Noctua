@@ -1,0 +1,41 @@
+.searchbarright__wrapper{
+    padding:1rem 1rem .7rem 2rem; 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+}
+
+.searchbarright{
+    display: flex;
+    align-items: center;
+    background-color: var(--noctua-background);
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid var(--noctua-background);
+}
+
+.searchbarright .MuiSvgIcon-root{
+    color: var(--noctua-light);
+}
+
+.searchbarright.beingPressed{
+    border: 1px solid var(--noctua-color);
+    background: white;
+}
+
+.searchbarright > input {
+    border: 1px solid var(--noctua-background);
+    outline: none;
+    width: 100%;
+    background-color: var(--noctua-background);
+}
+
+.searchbarright.beingPressed>input{
+    background-color: white;
+    border:1px solid white;
+}
+
+.searchbarright.beingPressed .MuiSvgIcon-root{
+    color: var(--noctua-color)
+}
