@@ -1,0 +1,17 @@
+.barRight{
+    flex: 0.5;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+.barRight::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 1000px){
+    .barRight{
+        display: none;
+    } 
+ }
+ 
